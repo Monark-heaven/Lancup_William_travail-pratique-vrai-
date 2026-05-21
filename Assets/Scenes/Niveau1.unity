@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 125186481}
   - component: {fileID: 125186480}
   m_Layer: 0
-  m_Name: Circle (4)
+  m_Name: legume
   m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -250,7 +250,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8242820234695673801, guid: 0da0329e0a350a74e9d36a78c9dec211, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1267,7 +1267,7 @@ GameObject:
   - component: {fileID: 680414981}
   - component: {fileID: 680414984}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: legume
   m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1356,7 +1356,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -4224434159975881483, guid: 0da0329e0a350a74e9d36a78c9dec211, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1558,7 +1558,7 @@ GameObject:
   - component: {fileID: 834512388}
   - component: {fileID: 834512387}
   m_Layer: 0
-  m_Name: Circle (2)
+  m_Name: legume
   m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1661,7 +1661,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 9057263682792052942, guid: 0da0329e0a350a74e9d36a78c9dec211, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1701,7 +1701,7 @@ GameObject:
   - component: {fileID: 1020084044}
   - component: {fileID: 1020084043}
   m_Layer: 0
-  m_Name: Circle (3)
+  m_Name: legume
   m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1804,7 +1804,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 48719161223466123, guid: 0da0329e0a350a74e9d36a78c9dec211, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2187,7 +2187,7 @@ GameObject:
   - component: {fileID: 1316208307}
   - component: {fileID: 1316208306}
   m_Layer: 0
-  m_Name: Circle (1)
+  m_Name: legume
   m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2290,7 +2290,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -8663739424785624238, guid: 0da0329e0a350a74e9d36a78c9dec211, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2330,7 +2330,7 @@ GameObject:
   - component: {fileID: 1566694620}
   - component: {fileID: 1566694619}
   m_Layer: 0
-  m_Name: Circle (5)
+  m_Name: legume
   m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2448,7 +2448,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 830478538347399227, guid: 0da0329e0a350a74e9d36a78c9dec211, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2759,7 +2759,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -7730486409907412771, guid: 32d806ce5ff1f3d45ba10d26b77e8252, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2798,6 +2798,10 @@ PrefabInstance:
       propertyPath: sonCollecte
       value: 
       objectReference: {fileID: 8300000, guid: c16393bfbb21c1045846eb6635e40567, type: 3}
+    - target: {fileID: 6406027782550896725, guid: 1ea0d527397fd664b9a554958a5eb487, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6433180368292782061, guid: 1ea0d527397fd664b9a554958a5eb487, type: 3}
       propertyPath: m_Name
       value: Personnage
